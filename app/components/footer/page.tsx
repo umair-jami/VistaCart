@@ -14,7 +14,7 @@ export default function Footer() {
   return (
     <footer className="bg-black text-white py-8">
       <div className="container mx-auto grid grid-cols-1 md:grid-cols-5 gap-8 text-sm">
-        <div>
+        <div className="flex flex-col gap-4">
           <h3 className="font-semibold text-lg">Exclusive</h3>
           <p className="mt-2">Subscribe</p>
           <p className="text-gray-400">Get 10% off your first order</p>
